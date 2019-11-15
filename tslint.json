@@ -1,0 +1,49 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {
+      "max-line-length": {
+        "options": [120]
+      }
+    },
+    "rules": {
+      "class-name": true,
+      "comment-format": [
+          true,
+          "check-space"
+      ],
+     "deprecation": {
+        "severity": "warn"
+      },
+      "indent": [
+        true,
+        "spaces"
+      ],
+      "quotemark": [
+        true,
+        "single"
+      ],
+      "max-line-length": {
+        "options": [120]
+      },
+      "one-variable-per-declaration": true,
+      "no-duplicate-imports": true,
+      "no-duplicate-variable": true,
+      "no-trailing-whitespace": true,
+      "no-var-keyword": true,
+      "no-var-requires": true,
+      "only-arrow-functions": [
+        true,
+        "allow-declarations",
+        "allow-named-functions"
+      ],
+      "ordered-imports": [
+        false
+      ],
+      "prefer-const": true,
+      "trailing-comma": [ false ]
+    },
+    "rulesDirectory": []
+}
